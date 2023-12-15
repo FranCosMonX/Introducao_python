@@ -1,8 +1,8 @@
 print("resposta da questão")
-for i in range(20):
- if i == 13:
+for i in range(0, 20):
+ if i == 12:
   continue
- print(i)
+ print(i + 1)
 
 print("usando while()")
 contador : int = 0
